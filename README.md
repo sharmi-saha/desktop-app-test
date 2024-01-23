@@ -6,9 +6,9 @@ This is the test automation project based on Selenium-Webdriver with Python on p
 
 Here you can find a short description of main directories and it's content
 
-* **data** - Inside this folder we have 2 files for storing static data. locator.py to store page element locator, config.py to store other constant data.
+* **data** - Inside this folder there are 2 files to store the static data. locator.py to store page element locator, config.py to store other constant data.
 
-* **resources** - Inside this folder we have helper.py to store the helper functions.
+* **resources** - Inside this folder there is "helper.py" file to store the helper functions.
 * **test** - There is single test file inside this folder contains the actual test methods.
 * **output** - This folder will generate runtime to store execution logs & default pytest html report.
 
@@ -26,7 +26,7 @@ def start_driver():
     driver = webdriver.Firefox(options=options, executable_path='geckodriver.exe')
     yield driver
     driver.quit()`
-* geckodriver.exe file is available inside project, just ensure it's compatible with local browser
+* geckodriver.exe file is available inside the project, just ensure it's compatible with local browser version.
 
 ![img_1.png](img_1.png)
 
